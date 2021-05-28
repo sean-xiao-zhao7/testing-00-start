@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon app.js"
   },
   "repository": {
@@ -16,9 +16,11 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
+    "chai": "^4.3.4",
     "express": "^4.16.3",
     "express-validator": "^5.3.0",
     "jsonwebtoken": "^8.3.0",
+    "mocha": "^8.4.0",
     "mongoose": "^5.3.2",
     "multer": "^1.4.0"
   },
