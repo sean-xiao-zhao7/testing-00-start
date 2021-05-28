@@ -70,6 +70,7 @@ exports.login = async (req, res, next) => {
 
 exports.getUserStatus = async (req, res, next) => {
   try {
+    console.log('here')
     const user = await User.findById(req.userId);
     if (!user) {
       const error = new Error('User not found.');
